@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color: #009CA6;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans Regular', sans-serif;
+} /*lightgray*/
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    color: lightgray;
+    background-color: #444;
+
+}
+
+header1{
+    margin-top: 3px;
+}
+
+header2{
+    font-family:'Lucida Grande', Geneva, Verdana, sans-serif;
+    min-height: 100px;
+    background-color: #0077C8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+
+main{
+    flex-grow: 1;
+    display:block;
+    flex-wrap: wrap;
+    
+}
+
+.beatriz{
+    background-color: #abafb0;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    margin-top: 3px;
+}
+
+.textobia{
+    display: block;
+    font-size: 20px;
+    font-family: 'Lucida Sans Regular', sans-serif;
+    text-align: justify;
+    padding: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.giovana{
+    background-color: #a1abb2;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    margin-top: 3px;
+}
+
+.textogiovana{
+    display: block;
+    font-size: 20px;
+    font-family: 'Lucida Sans Regular', sans-serif;
+    text-align: justify;
+    padding: 20px;
+}
+
+.fernanda{
+    background-color: #72808a;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    margin-top: 3px;
+}
+
+.textofernanda{
+    display: block;
+    font-size: 20px;
+    font-family: 'Lucida Sans Regular', sans-serif;
+    text-align: justify;
+    padding: 20px;
+    
+}
+
+.links{
+    display: flex;
+    padding-top: 20px;
+    
+    
+}
+
+footer{
+    background-color: white;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:right;
+    padding: 40px;
+}
+
+
+
+@media screen and (max-width: 922px){
+    .sec1{
+        width: 50%;
+        order: 1;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec3{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .sec1, .sec2, .sec3{
+        width: 100%;
+    }
+}
