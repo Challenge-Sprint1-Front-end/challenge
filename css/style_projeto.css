@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color: #009CA6;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans Regular', sans-serif;
+} /*lightgray*/
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    color: #0077C8;
+
+}
+
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.apresentacao{
+    background-color: #e9eded;
+    width: 60%;
+    padding: 25px;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 170px;
+    background-color: #0077C8;
+    color: #15bef0;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -100px;
+    border-radius: 100px;
+}
+
+.textointroducao{
+    font-family: 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+    text-indent: 15px;
+    margin-top: 42px;
+    width: 90%;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.fotos{
+    width: 40%;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.foto1{
+    margin-top: 30px;
+}
+
+.foto2{
+    margin-top: 50px;
+}
+
+footer{
+    padding: 60px;
+    background-color: white;
+}
+
+
+
+.navegacaoprojeto{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    font-size: 17px;
+    
+}
+
+
+.objetivo{
+    display: block;
+    width: 27%;
+    background-color:#e9eded;
+    padding: 20px;
+    border-radius: 20px;
+    
+
+}
+
+.metodologia{
+    display: block;
+    width: 29%;
+    background-color: #e9eded;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.resultados{
+    display: block;
+    width: 27%;
+    background-color: #e9eded;
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+
+.lermais{
+    font-size: 20px;
+    width: 100px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 88px;
+    text-align: center;
+    font-style:unset;
+}
+
+.lermais2{
+    font-size: 20px;
+    width: 100px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 100px;
+    text-align: center;
+    font-style:unset;
+}
+
+input{
+    background-color: #0077C8;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    align-self: center;
+}
+
+input:hover{
+    background-color: #009CA6;
+}
+
+
+
+
+
+
+@media screen and (max-width: 922px){
+    .sec1{
+        width: 50%;
+        order: 1;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec3{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .sec1, .sec2, .sec3{
+        width: 100%;
+    }
+}

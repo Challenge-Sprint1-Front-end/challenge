@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 60px;
+    background-color: #009CA6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bloco1{
+    background-color: white;
+    width: 50%;
+    padding: 25px;
+}
+
+.imagem{
+    margin-top: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.titulo{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-left: 20px;
+
+
+}
+
+.bloco2{
+    background-color: #e9eded;
+    width: 50%;
+    padding: 15px;
+}
+
+.blocologin{
+    background-color: #009CA6;
+    width: 90%;
+    height: 65%;
+    padding: 20px;
+    margin-top: 120px;
+    border-radius: 20px;
+    margin-left: 33px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); ;
+
+}
+
+.titulologin{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.infoslogin{
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+.campo1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.submit{
+    margin-top: 10px;
+    justify-items: center;
+    margin-top: 30px;
+    margin-left: 205px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.submit input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    align-self: center;
+}
+
+input :hover{
+    background-color:#e9eded;
+
+}
+
+.campo1 input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.campo2 input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 922px){
+    .sec1{
+        width: 50%;
+        order: 1;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec3{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .sec1, .sec2, .sec3{
+        width: 100%;
+    }
+}
+
+

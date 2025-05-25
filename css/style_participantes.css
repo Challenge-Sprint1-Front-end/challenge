@@ -24,30 +24,32 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;
-    color: #444;
+    color: white;
     display: inline-block;
     padding: 10px 20px;
 }
 
 nav ul li a:hover{
-    color: lightgray;
-    background-color: #444;
+    color: #0077C8;
 
 }
 
-header1{
-    margin-top: 3px;
-}
-
-header2{
-    font-family:'Lucida Grande', Geneva, Verdana, sans-serif;
-    min-height: 100px;
-    background-color: #0077C8;
-    color: white;
+.titulo{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 155px;
+    background-color: #0077C8 ;
+    color: #15bef0;
+    font-size: 40px;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 3px;
+    width: 65%;
+    margin-top: 40px;
+    margin-left: -75px;
+    margin-bottom: 40px;
+    border-radius: 100px;
 }
 
 main{
@@ -58,11 +60,14 @@ main{
 }
 
 .beatriz{
-    background-color: #abafb0;
-    width: 100%;
-    padding: 25px;
+    
+    background-color: #e9eded;
+    width: 80%;
+    padding: 35px;
     display: flex;
     margin-top: 3px;
+    border-radius: 50px;
+    margin-left: 140px;
 }
 
 .textobia{
@@ -78,11 +83,15 @@ img{
 }
 
 .giovana{
-    background-color: #a1abb2;
-    width: 100%;
-    padding: 25px;
+    
+    background-color: #e9eded;
+    width: 80%;
+    padding: 35px;
     display: flex;
-    margin-top: 3px;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-left: 140px;
+    
 }
 
 .textogiovana{
@@ -94,11 +103,14 @@ img{
 }
 
 .fernanda{
-    background-color: #72808a;
-    width: 100%;
-    padding: 25px;
+    
+    background-color: #e9eded;
+    width: 80%;
+    padding: 35px;
     display: flex;
-    margin-top: 3px;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-left: 140px;
 }
 
 .textofernanda{
@@ -111,10 +123,20 @@ img{
 }
 
 .links{
-    display: flex;
+    display: block;
     padding-top: 20px;
     
     
+}
+
+.github{
+    display: flex
+
+}
+
+.linkedin{
+    display: flex ;
+    margin-top: 11px;
 }
 
 footer{

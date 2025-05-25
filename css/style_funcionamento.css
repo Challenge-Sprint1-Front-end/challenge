@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color: #009CA6;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans Regular', sans-serif;
+} /*lightgray*/
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    color: #0077C8;
+
+}
+
+.bloco1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+main{
+    flex-grow: 1;
+    display: block;
+    flex-wrap: wrap;
+
+}
+
+.objetivos{
+    background-color: #e9eded;
+    width: 60%;
+    padding: 25px;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 170px;
+    background-color: #0077C8;
+    color: #15bef0;
+    font-size: 45px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    margin-top: 20px;
+    margin-left: -100px;
+    border-radius: 100px;
+}
+
+.textofuncionamento{
+    font-family: 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 42px;
+    width: 90%;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.fotos{
+    width: 40%;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.foto1{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: white;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:right;
+    padding: 40px;
+}
+
+@media screen and (max-width: 922px){
+    .sec1{
+        width: 50%;
+        order: 1;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec3{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .sec1, .sec2, .sec3{
+        width: 100%;
+    }
+}
